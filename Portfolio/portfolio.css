@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Edu+SA+Beginner&family=IBM+Plex+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Dancing Script', cursive;
+    font-family: 'Edu SA Beginner', cursive; */
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.logo1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-weight: 100;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.links a{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+.logs img{
+    padding-left: 10px;
+
+}
+
+
+.button button{
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    background-color: black;
+    font-weight: 300;
+    color: white;
+    
+}
+p{
+    font-size: 18px;
+}
+li{
+    font-size: 17px;
+    line-height: 29px;
+}
+
+.feed{
+    display: flex; 
+    justify-content: space-between;
+}
+.saving{
+    border-width: 3px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 20px;
+    margin-right: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.quality{
+    border-width: 3px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 20px;
+    margin-right: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.cabin{
+    border-width: 3px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 20px;
+    margin-right: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cardcontainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card1 {
+    display: inline-block;
+    width: 45%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card1 h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.card1 p {
+    color: #666;
+}
+
+
+.card2 {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card2 img {
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card2 h3 {
+    margin-top: 10px;
+}
+
+.card2 a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+
+.talk{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0;
+    background-color: white;
+}
+
+.hobbies-container {
+    display: flex;
+}
+
+.hobby-card {
+    width: 150px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.hobby-card img {
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.hobby-card h3 {
+    margin-top: 10px;
+}
+
+.hobby-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
